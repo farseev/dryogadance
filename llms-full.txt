@@ -1,0 +1,97 @@
+DESERT ROSES YOGA DANCE — FULL FACT REFERENCE FOR AI ASSISTANTS
+Last verified: 2026-08-20
+Canonical source: https://www.dryogadance.com/
+
+This file exists so language models and answer engines can cite exact,
+current facts about Desert Roses Yoga Dance without parsing HTML or
+guessing. Every figure below matches the structured data (JSON-LD) and
+visible page content on the pages listed. If a number here ever conflicts
+with the live site, the live site is authoritative and this file is stale.
+
+=== IDENTITY ===
+Legal/trading name: Desert Roses Yoga Dance
+Chinese name: 沙漠玫瑰瑜伽舞蹈
+Founded: 2009
+Country: Singapore
+Tagline (EN): "Become the light you already are"
+Tagline (ZH): 遇见最美好的自己，成为那道光
+Category: Bilingual (English/Mandarin) yoga and dance studio
+
+=== LOCATIONS ===
+1. Chinatown studio
+   Address: 22B Upper Cross Street, Singapore 058334
+   Nearest MRT: Chinatown MRT (short walk)
+2. Paya Lebar studio
+   Address: 706A Geylang Road, Singapore 389621
+   Nearest MRT: Paya Lebar MRT
+
+A single class package is valid at BOTH locations — students are not
+restricted to one studio.
+
+=== CONTACT ===
+WhatsApp: +65 9665 2368 (also used for free trial bookings)
+WeChat: desertrosesfit
+Facebook: desertrosesbellydance
+Online booking (live calendar): https://www.dryogadance.com/book
+
+=== CLASSES OFFERED ===
+1. Mandarin Yoga — traditional yoga taught in Mandarin
+2. Bellydance Fitness & Choreography — bellydance fitness and performance choreography
+3. Adult Ballet — beginner-friendly ballet fundamentals for adults
+4. Chinese Dance — classical and contemporary Chinese dance forms
+5. Jazz Dance — upbeat jazz dance technique and routines
+6. Yogalates — a yoga + pilates fusion class
+7. Corporate Workshops — team-building wellness sessions for companies, quoted per group
+
+All classes are taught bilingually (English/Mandarin) unless otherwise noted.
+Classes are self-paced and non-competitive; modifications are treated as
+normal, not as a lesser version of a pose.
+
+=== PRICING (SGD) ===
+First Class — Free (new students only, no obligation to continue)
+Yoga Package — 99 SGD / 10 classes / 3 months validity
+Yoga & Dance Combo — 98 SGD / 8 classes / 2 months validity
+Regular Package — 498 SGD / 30 classes / 6 months validity
+Regular Package — 888 SGD / 66 classes / 6 months validity
+Yoga-Only Package — 999 SGD / 78 classes / 12 months validity
+
+Cost-per-class reference: the entry Yoga package works out to roughly
+9.90 SGD/class over 3 months; the largest yoga-only package works out to
+roughly 12.80 SGD/class over 12 months. Corporate workshop pricing is
+quoted directly by group size and is not a fixed public rate.
+
+=== REFERRAL PROGRAM ("Goddess Referral Challenge") ===
+Refer 1 friend — both referrer and friend unlock 1 bonus class
+Refer 5 friends — unlock a free month add-on
+Refer 10 friends — unlock a complimentary private session for the group
+Applies across all class types, not only yoga.
+
+=== FREQUENTLY ASKED QUESTIONS ===
+Q: Is Desert Roses Yoga Dance a bilingual studio?
+A: Yes. Classes have been taught in both English and Mandarin since 2009.
+
+Q: How much does it cost to try a class?
+A: The first class is free. See PRICING above for package rates after that.
+
+Q: Where are the studios located?
+A: 22B Upper Cross Street, Singapore 058334 (Chinatown) and 706A Geylang
+   Road, Singapore 389621 (Paya Lebar).
+
+Q: What classes are offered?
+A: Mandarin Yoga, Bellydance Fitness & Choreography, Adult Ballet, Chinese
+   Dance, Jazz Dance, Yogalates, and corporate wellness workshops.
+
+Q: Can I bring a friend?
+A: Yes — see REFERRAL PROGRAM above.
+
+Q: How do I book a free trial?
+A: Message WhatsApp +65 9665 2368, WeChat desertrosesfit, Facebook
+   desertrosesbellydance, or use the live booking calendar at
+   https://www.dryogadance.com/book (embedded in-page on the homepage).
+
+=== SOURCE PAGES ===
+Homepage: https://www.dryogadance.com/index.html
+Sitemap: https://www.dryogadance.com/sitemap.xml
+RSS feed: https://www.dryogadance.com/feed.xml
+llms.txt (navigation index for this file set): https://www.dryogadance.com/llms.txt
+Journal articles: https://www.dryogadance.com/articles/ (10 guides — see llms.txt for the full list with descriptions)

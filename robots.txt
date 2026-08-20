@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+# GEO: machine-readable fact reference for AI assistants and answer engines
+# (see https://llmstxt.org for the emerging llms.txt convention)
+# https://www.dryogadance.com/llms.txt
+# https://www.dryogadance.com/llms-full.txt
+
 Sitemap: https://www.dryogadance.com/sitemap.xml
