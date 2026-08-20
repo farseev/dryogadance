@@ -50,12 +50,19 @@ img{max-width:100%;display:block}
   position:sticky;top:0;z-index:50;background:rgba(251,246,239,.94);
   backdrop-filter:blur(6px);border-bottom:1px solid var(--line);
 }
-.site-nav .row{display:flex;align-items:center;justify-content:space-between;padding:14px 24px}
-.brand-mark{display:flex;align-items:center;gap:10px;font-family:Georgia,serif;color:var(--violet);font-weight:700;font-size:1.15rem}
-.brand-mark img{width:34px;height:34px}
+.site-nav .row{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;gap:16px}
+.brand-mark{display:flex;align-items:center;gap:10px;font-family:Georgia,serif;color:var(--violet);font-weight:700;font-size:1.15rem;flex-shrink:0}
+.brand-mark img{width:34px;height:34px;object-fit:contain}
 .brand-mark .zh{font-size:.7rem;color:var(--muted);font-weight:400;display:block}
-.nav-links{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.nav-links{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
 .nav-links a{color:var(--ink);font-weight:600;font-size:.95rem}
+/* Language switcher */
+.lang-switch{display:flex;align-items:center;gap:2px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:3px;flex-shrink:0}
+.lang-switch button{
+  border:none;background:none;padding:5px 12px;border-radius:999px;font-size:.82rem;
+  font-weight:700;color:var(--muted);cursor:pointer;font-family:inherit;
+}
+.lang-switch button.active{background:var(--orchid);color:#fff}
 /* Hero */
 .hero{
   position:relative;min-height:560px;display:flex;align-items:center;
@@ -78,7 +85,7 @@ section.alt{background:#fff}
   background:#fff;border:1px solid var(--line);border-radius:var(--radius);
   padding:26px;box-shadow:var(--shadow);
 }
-.card img.icon{width:56px;height:56px;margin-bottom:14px}
+.card img.icon{width:56px;height:56px;margin-bottom:14px;object-fit:contain}
 .narrative-badge{
   display:inline-block;background:#F3E6F8;color:var(--violet);
   font-size:.72rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;
@@ -117,6 +124,32 @@ footer .foot-row{display:flex;justify-content:space-between;flex-wrap:wrap;gap:2
 .related{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-top:40px}
 .related h3{font-size:1rem}
 .related ul{margin:0;padding-left:1.2em}
+.zh-note-banner{
+  display:none;background:#F3E6F8;border:1px solid var(--line);border-radius:12px;
+  padding:14px 18px;margin-bottom:22px;color:var(--violet);font-size:.9rem;font-weight:600;
+}
+html[lang="zh"] .zh-note-banner{display:block}
+
+/* Photo aspect-ratio + crop discipline — prevents any image from stretching
+   regardless of its real intrinsic size; object-fit crops, never distorts. */
+.ph-square{aspect-ratio:1/1;object-fit:cover;width:100%;height:auto;border-radius:18px;box-shadow:var(--shadow)}
+.ph-photo{aspect-ratio:4/3;object-fit:cover;width:100%;height:auto;border-radius:12px}
+
+/* Clickable class/offering cards */
+.class-card{display:block;text-decoration:none;color:inherit;transition:transform .15s ease, box-shadow .15s ease}
+.class-card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(107,63,160,.2);text-decoration:none}
+.class-card .cta-hint{margin-top:10px;font-size:.82rem;font-weight:700;color:var(--orchid)}
+
+/* Clickable contact cards */
+.contact-card{display:block;text-decoration:none;color:inherit;text-align:center;position:relative;transition:transform .15s ease, box-shadow .15s ease;cursor:pointer}
+.contact-card:hover{transform:translateY(-3px);box-shadow:0 16px 36px rgba(107,63,160,.2);text-decoration:none}
+.contact-card .cta-hint{margin-top:6px;font-size:.78rem;font-weight:700;color:var(--orchid)}
+.copy-toast{
+  position:absolute;bottom:-14px;left:50%;transform:translate(-50%,0);
+  background:var(--ink);color:#fff;font-size:.76rem;padding:6px 12px;border-radius:999px;
+  opacity:0;pointer-events:none;transition:opacity .2s ease, transform .2s ease;white-space:nowrap;
+}
+.copy-toast.show{opacity:1;transform:translate(-50%,10px)}
 
 /* Booking modal */
 .booking-modal-overlay{

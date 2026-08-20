@@ -172,7 +172,7 @@
       "name": "What classes does Desert Roses Yoga Dance offer?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Mandarin Yoga, Bellydance Fitness &amp; Choreography, Adult Ballet, Chinese Dance, Jazz Dance, Yogalates, and corporate wellness workshops/team building sessions."
+        "text": "Mandarin Yoga, Bellydance Fitness & Choreography, Adult Ballet, Chinese Dance, Jazz Dance, Yogalates, and corporate wellness workshops/team building sessions."
       }
     },
     {
@@ -222,27 +222,30 @@
 
 <nav class="site-nav">
   <div class="row container">
-    <a href="index.html" class="brand-mark"><img src="assets/favicon-192.png" alt="Desert Roses Yoga Dance logo" width="34" height="34">Desert Roses<span class="zh">沙漠玫瑰瑜伽舞蹈</span></a>
+    <a href="index.html" class="brand-mark"><img src="assets/favicon-192.png" alt="Desert Roses Yoga Dance logo" width="34" height="34"><span>Desert Roses<span class="zh">沙漠玫瑰瑜伽舞蹈</span></span></a>
     <div class="nav-links">
-      <a href="#offerings">Classes</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#locations">Locations</a>
-      <a href="#journal">Journal</a>
-      <a href="#faq">FAQ</a>
-      <a href="https://www.dryogadance.com/book" class="pill-btn" data-open-booking="https://www.dryogadance.com/book" data-booking-label="Book Your Free Trial Class">Book Free Trial</a>
+      <a href="#offerings" data-i18n="nav_classes">Classes</a>
+      <a href="#pricing" data-i18n="nav_pricing">Pricing</a>
+      <a href="#locations" data-i18n="nav_locations">Locations</a>
+      <a href="#journal" data-i18n="nav_journal">Journal</a>
+      <a href="#faq" data-i18n="nav_faq">FAQ</a>
+      <a href="https://www.dryogadance.com/book" class="pill-btn" data-open-booking="https://www.dryogadance.com/book" data-i18n="nav_book">Book Free Trial</a>
+      <div class="lang-switch">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="zh">中文</button>
+      </div>
     </div>
   </div>
 </nav>
 
 <header class="hero">
   <div class="container">
-    <p class="eyebrow">Singapore · Bilingual Studio Since 2009</p>
-    <h1>You don't have to become the light alone.</h1>
-    <p class="lede">Desert Roses Yoga Dance is Singapore's bilingual (English &amp; Mandarin) yoga and dance studio — Mandarin Yoga, Bellydance, Adult Ballet, Chinese Dance, Jazz Dance and Yogalates, taught across two studios in Chinatown and Paya Lebar.</p>
-    <p class="lede" style="font-size:1rem;color:#E9DEF0">遇见最美好的自己，成为那道光</p>
+    <p class="eyebrow" data-i18n="hero_eyebrow">Singapore · Bilingual Studio Since 2009</p>
+    <h1 data-i18n="hero_h1">You don't have to become the light alone.</h1>
+    <p class="lede" data-i18n="hero_lede">Desert Roses Yoga Dance is Singapore's bilingual (English &amp; Mandarin) yoga and dance studio — Mandarin Yoga, Bellydance, Adult Ballet, Chinese Dance, Jazz Dance and Yogalates, taught across two studios in Chinatown and Paya Lebar.</p>
     <div class="cta-row">
-      <a href="https://www.dryogadance.com/book" class="pill-btn" data-open-booking="https://www.dryogadance.com/book" data-booking-label="Book Your Free Trial Class">Book Your Free Trial Class</a>
-      <a href="#offerings" class="pill-btn outline" style="background:rgba(255,255,255,.12);color:#fff;border-color:#fff">See All Classes</a>
+      <a href="https://www.dryogadance.com/book" class="pill-btn" data-open-booking="https://www.dryogadance.com/book" data-i18n="hero_cta_book">Book Your Free Trial Class</a>
+      <a href="#offerings" class="pill-btn outline" style="background:rgba(255,255,255,.12);color:#fff;border-color:#fff" data-i18n="hero_cta_classes">See All Classes</a>
     </div>
   </div>
 </header>
@@ -250,13 +253,13 @@
 <section id="why-now" class="alt">
   <div class="container grid-2">
     <div>
-      <span class="narrative-badge">Why we're saying this now</span>
-      <h2>Practice sticks when you don't do it alone</h2>
-      <p>Across a year of Singapore yoga &amp; dance content, one pattern kept surfacing: the posts and stories that got the most genuine engagement weren't about a single class — they were about a friend, a partner, a sister showing up together. Competitors mostly talk about the workout. We noticed Desert Roses' own real community already lives this — partner poses, side-by-side practice, shared milestones.</p>
-      <p>That's the gap we're leaning into: <strong>Bring Your People</strong> — a studio built around practicing with someone, not just practicing alone.</p>
+      <span class="narrative-badge" data-i18n="why_badge">Why we're saying this now</span>
+      <h2 data-i18n="why_h2">Practice sticks when you don't do it alone</h2>
+      <p data-i18n="why_p1">Across a year of Singapore yoga &amp; dance content, one pattern kept surfacing: the posts and stories that got the most genuine engagement weren't about a single class — they were about a friend, a partner, a sister showing up together. Competitors mostly talk about the workout. We noticed Desert Roses' own real community already lives this — partner poses, side-by-side practice, shared milestones.</p>
+      <p data-i18n-html="why_p2">That's the gap we're leaning into: <strong>Bring Your People</strong> — a studio built around practicing with someone, not just practicing alone.</p>
     </div>
     <div>
-      <img src="assets/organic-pier.jpg" alt="Two Desert Roses students practicing a partner yoga backbend together outdoors on a pier in Singapore" width="720" height="720" loading="lazy" style="border-radius:18px;box-shadow:0 10px 30px rgba(107,63,160,.18)">
+      <img class="ph-square" src="assets/organic-pier.jpg" alt="Two Desert Roses students practicing a partner yoga backbend together outdoors on a pier in Singapore" width="720" height="720" loading="lazy">
     </div>
   </div>
 </section>
@@ -264,50 +267,85 @@
 <section id="bring-your-people">
   <div class="container grid-2">
     <div style="order:2">
-      <img src="assets/organic-poster.jpg" alt="Desert Roses Goddess Referral Challenge promotional poster" width="720" height="720" loading="lazy" style="border-radius:18px;box-shadow:0 10px 30px rgba(107,63,160,.18)">
+      <img class="ph-square" src="assets/organic-poster.jpg" alt="Desert Roses Goddess Referral Challenge promotional poster" width="720" height="720" loading="lazy">
     </div>
     <div style="order:1">
-      <span class="narrative-badge">Bring Your People</span>
-      <h2>Refer your people, practice together</h2>
-      <p>Desert Roses' real "Goddess Referral Challenge" already rewards students for bringing friends into the studio. We're building on exactly that:</p>
+      <span class="narrative-badge" data-i18n="byp_badge">Bring Your People</span>
+      <h2 data-i18n="byp_h2">Refer your people, practice together</h2>
+      <p data-i18n-html="byp_p1">Desert Roses' real "Goddess Referral Challenge" already rewards students for bringing friends into the studio. We're building on exactly that:</p>
       <ul>
-        <li><strong>Refer 1 friend</strong> — unlock a bonus class for both of you.</li>
-        <li><strong>Refer 5 friends</strong> — unlock a free month add-on.</li>
-        <li><strong>Refer 10 friends</strong> — unlock a complimentary private session for your group.</li>
+        <li data-i18n-html="byp_li1"><strong>Refer 1 friend</strong> — unlock a bonus class for both of you.</li>
+        <li data-i18n-html="byp_li2"><strong>Refer 5 friends</strong> — unlock a free month add-on.</li>
+        <li data-i18n-html="byp_li3"><strong>Refer 10 friends</strong> — unlock a complimentary private session for your group.</li>
       </ul>
-      <p>It's not a gimmick — it's what the data and the studio's own community already show works.</p>
+      <p data-i18n="byp_p2">It's not a gimmick — it's what the data and the studio's own community already show works.</p>
     </div>
   </div>
 </section>
 
 <section id="offerings" class="alt">
   <div class="container">
-    <p class="eyebrow" style="text-align:center">What We Teach</p>
-    <h2 style="text-align:center">Seven ways to move, bilingual from day one</h2>
+    <p class="eyebrow" style="text-align:center" data-i18n="off_eyebrow">What We Teach</p>
+    <h2 style="text-align:center" data-i18n="off_h2">Seven ways to move, bilingual from day one</h2>
     <div class="grid-7" style="margin-top:34px">
-      <div class="card"><img class="icon" src="assets/icon-mandarin-yoga.png" alt="Mandarin Yoga icon" width="56" height="56" loading="lazy"><h3>Mandarin Yoga</h3><p>Traditional yoga taught in Mandarin for our bilingual community.</p></div>
-      <div class="card"><img class="icon" src="assets/icon-bellydance.png" alt="Bellydance fitness icon" width="56" height="56" loading="lazy"><h3>Bellydance Fitness &amp; Choreography</h3><p>High-energy bellydance fitness and performance choreography.</p></div>
-      <div class="card"><img class="icon" src="assets/icon-ballet.png" alt="Adult ballet icon" width="56" height="56" loading="lazy"><h3>Adult Ballet</h3><p>Beginner-friendly ballet fundamentals for adult students.</p></div>
-      <div class="card"><img class="icon" src="assets/icon-chinese-dance.png" alt="Chinese dance icon" width="56" height="56" loading="lazy"><h3>Chinese Dance</h3><p>Classical and contemporary Chinese dance forms.</p></div>
-      <div class="card"><img class="icon" src="assets/icon-jazz.png" alt="Jazz dance icon" width="56" height="56" loading="lazy"><h3>Jazz Dance</h3><p>Upbeat jazz dance technique and routines.</p></div>
-      <div class="card"><img class="icon" src="assets/icon-yogalates.png" alt="Yogalates icon" width="56" height="56" loading="lazy"><h3>Yogalates</h3><p>A yoga + pilates fusion for strength and flexibility.</p></div>
-      <div class="card"><img class="icon" src="assets/icon-corporate.png" alt="Corporate wellness icon" width="56" height="56" loading="lazy"><h3>Corporate Workshops</h3><p>Team-building wellness sessions for companies.</p></div>
+      <a class="card class-card" href="https://www.dryogadance.com/booking-calendar/%E5%8D%8E%E8%AF%AD%E7%91%9C%E4%BC%BDyoga-22b-upper-cross-street" data-open-booking="https://www.dryogadance.com/booking-calendar/%E5%8D%8E%E8%AF%AD%E7%91%9C%E4%BC%BDyoga-22b-upper-cross-street" data-booking-label="Mandarin Yoga — Chinatown">
+        <img class="icon" src="assets/icon-mandarin-yoga.png" alt="Mandarin Yoga icon" width="56" height="56" loading="lazy">
+        <h3 data-i18n="off_1_name">Mandarin Yoga</h3>
+        <p data-i18n="off_1_desc">Traditional yoga taught in Mandarin for our bilingual community.</p>
+        <p class="cta-hint" data-i18n="off_cta">Book this class →</p>
+      </a>
+      <a class="card class-card" href="https://www.dryogadance.com/booking-calendar/bellydance-fit-%E7%87%83%E8%84%82%E8%82%9A%E7%9A%AE%E8%88%9E%E5%9F%BA%E7%A1%80-22b-upp-cross-st" data-open-booking="https://www.dryogadance.com/booking-calendar/bellydance-fit-%E7%87%83%E8%84%82%E8%82%9A%E7%9A%AE%E8%88%9E%E5%9F%BA%E7%A1%80-22b-upp-cross-st" data-booking-label="Bellydance Fitness &amp; Choreography — Chinatown">
+        <img class="icon" src="assets/icon-bellydance.png" alt="Bellydance fitness icon" width="56" height="56" loading="lazy">
+        <h3 data-i18n="off_2_name">Bellydance Fitness &amp; Choreography</h3>
+        <p data-i18n="off_2_desc">High-energy bellydance fitness and performance choreography.</p>
+        <p class="cta-hint" data-i18n="off_cta">Book this class →</p>
+      </a>
+      <a class="card class-card" href="https://www.dryogadance.com/booking-calendar/adult-ballet-%E6%88%90%E4%BA%BA%E8%8A%AD%E8%95%BE%E5%BD%A2%E4%BD%93-706a-geylang-road" data-open-booking="https://www.dryogadance.com/booking-calendar/adult-ballet-%E6%88%90%E4%BA%BA%E8%8A%AD%E8%95%BE%E5%BD%A2%E4%BD%93-706a-geylang-road" data-booking-label="Adult Ballet — Paya Lebar">
+        <img class="icon" src="assets/icon-ballet.png" alt="Adult ballet icon" width="56" height="56" loading="lazy">
+        <h3 data-i18n="off_3_name">Adult Ballet</h3>
+        <p data-i18n="off_3_desc">Beginner-friendly ballet fundamentals for adult students.</p>
+        <p class="cta-hint" data-i18n="off_cta">Book this class →</p>
+      </a>
+      <a class="card class-card" href="https://www.dryogadance.com/booking-calendar/chinese-dance-%E4%B8%AD%E5%9B%BD%E5%8F%A4%E5%85%B8%E8%88%9E%E8%BA%AB%E9%9F%B5-22b-upper-cross-st" data-open-booking="https://www.dryogadance.com/booking-calendar/chinese-dance-%E4%B8%AD%E5%9B%BD%E5%8F%A4%E5%85%B8%E8%88%9E%E8%BA%AB%E9%9F%B5-22b-upper-cross-st" data-booking-label="Chinese Dance — Chinatown">
+        <img class="icon" src="assets/icon-chinese-dance.png" alt="Chinese dance icon" width="56" height="56" loading="lazy">
+        <h3 data-i18n="off_4_name">Chinese Dance</h3>
+        <p data-i18n="off_4_desc">Classical and contemporary Chinese dance forms.</p>
+        <p class="cta-hint" data-i18n="off_cta">Book this class →</p>
+      </a>
+      <a class="card class-card" href="https://www.dryogadance.com/booking-calendar/chinese-jazz-%E4%B8%AD%E5%9B%BD%E9%A3%8E%E7%88%B5%E5%A3%AB%E8%88%9E-22b-upper-cross-st" data-open-booking="https://www.dryogadance.com/booking-calendar/chinese-jazz-%E4%B8%AD%E5%9B%BD%E9%A3%8E%E7%88%B5%E5%A3%AB%E8%88%9E-22b-upper-cross-st" data-booking-label="Jazz Dance — Chinatown">
+        <img class="icon" src="assets/icon-jazz.png" alt="Jazz dance icon" width="56" height="56" loading="lazy">
+        <h3 data-i18n="off_5_name">Jazz Dance</h3>
+        <p data-i18n="off_5_desc">Upbeat jazz dance technique and routines.</p>
+        <p class="cta-hint" data-i18n="off_cta">Book this class →</p>
+      </a>
+      <a class="card class-card" href="https://www.dryogadance.com/book" data-open-booking="https://www.dryogadance.com/book" data-booking-label="Yogalates">
+        <img class="icon" src="assets/icon-yogalates.png" alt="Yogalates icon" width="56" height="56" loading="lazy">
+        <h3 data-i18n="off_6_name">Yogalates</h3>
+        <p data-i18n="off_6_desc">A yoga + pilates fusion for strength and flexibility.</p>
+        <p class="cta-hint" data-i18n="off_cta">Book this class →</p>
+      </a>
+      <a class="card class-card" href="https://wa.me/6596652368?text=Hi%2C%20I%27d%20like%20to%20enquire%20about%20a%20corporate%20wellness%20workshop." target="_blank" rel="noopener">
+        <img class="icon" src="assets/icon-corporate.png" alt="Corporate wellness icon" width="56" height="56" loading="lazy">
+        <h3 data-i18n="off_7_name">Corporate Workshops</h3>
+        <p data-i18n="off_7_desc">Team-building wellness sessions for companies.</p>
+        <p class="cta-hint">Enquire on WhatsApp →</p>
+      </a>
     </div>
   </div>
 </section>
 
 <section id="pricing">
   <div class="container">
-    <p class="eyebrow" style="text-align:center">Pricing</p>
-    <h2 style="text-align:center">Start free. Stay for as long as it helps.</h2>
+    <p class="eyebrow" style="text-align:center" data-i18n="price_eyebrow">Pricing</p>
+    <h2 style="text-align:center" data-i18n="price_h2">Start free. Stay for as long as it helps.</h2>
     <table class="pricing-table" style="margin-top:30px">
-      <tr><th>Package</th><th>Price</th><th>Validity</th></tr>
-      <tr><td>First Class</td><td>Free</td><td>New students only</td></tr>
-      <tr><td>Yoga Package</td><td>99 SGD / 10 classes</td><td>3 months</td></tr>
-      <tr><td>Yoga &amp; Dance Combo</td><td>98 SGD / 8 classes</td><td>2 months</td></tr>
-      <tr><td>Regular Package</td><td>498 SGD / 30 classes</td><td>6 months</td></tr>
-      <tr><td>Regular Package</td><td>888 SGD / 66 classes</td><td>6 months</td></tr>
-      <tr><td>Yoga-Only Package</td><td>999 SGD / 78 classes</td><td>12 months</td></tr>
+      <tr><th data-i18n="price_th1">Package</th><th data-i18n="price_th2">Price</th><th data-i18n="price_th3">Validity</th></tr>
+      <tr><td data-i18n="price_r1_a">First Class</td><td data-i18n="price_r1_b">Free</td><td data-i18n="price_r1_c">New students only</td></tr>
+      <tr><td data-i18n="price_r2_a">Yoga Package</td><td data-i18n="price_r2_b">99 SGD / 10 classes</td><td data-i18n="price_r2_c">3 months</td></tr>
+      <tr><td data-i18n="price_r3_a">Yoga &amp; Dance Combo</td><td data-i18n="price_r3_b">98 SGD / 8 classes</td><td data-i18n="price_r3_c">2 months</td></tr>
+      <tr><td data-i18n="price_r4_a">Regular Package</td><td data-i18n="price_r4_b">498 SGD / 30 classes</td><td data-i18n="price_r4_c">6 months</td></tr>
+      <tr><td data-i18n="price_r5_a">Regular Package</td><td data-i18n="price_r5_b">888 SGD / 66 classes</td><td data-i18n="price_r5_c">6 months</td></tr>
+      <tr><td data-i18n="price_r6_a">Yoga-Only Package</td><td data-i18n="price_r6_b">999 SGD / 78 classes</td><td data-i18n="price_r6_c">12 months</td></tr>
     </table>
   </div>
 </section>
@@ -315,27 +353,28 @@
 <section class="alt">
   <div class="container grid-3">
     <div class="card">
-      <span class="narrative-badge">Also Rising</span>
-      <h3>Wellness That Travels</h3>
-      <p>Two studios, one membership — Chinatown and Paya Lebar, both MRT-accessible, so practice fits your week instead of the other way around.</p>
+      <span class="narrative-badge" data-i18n="sec1_badge">Also Rising</span>
+      <h3 data-i18n="sec1_h3">Wellness That Travels</h3>
+      <p data-i18n="sec1_p">Two studios, one membership — Chinatown and Paya Lebar, both MRT-accessible, so practice fits your week instead of the other way around.</p>
     </div>
     <div class="card">
-      <span class="narrative-badge">Also Rising</span>
-      <h3>Practice At Your Own Pace</h3>
-      <p>No leaderboard, no comparison — Yogalates and Mandarin Yoga classes are built for steady, self-paced progress at any level.</p>
+      <span class="narrative-badge" data-i18n="sec2_badge">Also Rising</span>
+      <h3 data-i18n="sec2_h3">Practice At Your Own Pace</h3>
+      <p data-i18n="sec2_p">No leaderboard, no comparison — Yogalates and Mandarin Yoga classes are built for steady, self-paced progress at any level.</p>
     </div>
     <div class="card">
-      <span class="narrative-badge">Est. 2009</span>
-      <h3>17 Years in Singapore</h3>
-      <p>A bilingual studio community built class by class since 2009 — not a recent trend.</p>
+      <span class="narrative-badge" data-i18n="sec3_badge">Est. 2009</span>
+      <h3 data-i18n="sec3_h3">17 Years in Singapore</h3>
+      <p data-i18n="sec3_p">A bilingual studio community built class by class since 2009 — not a recent trend.</p>
     </div>
   </div>
 </section>
 
 <section id="journal" class="alt">
   <div class="container">
-    <p class="eyebrow" style="text-align:center">The Journal</p>
-    <h2 style="text-align:center">Guides on yoga, dance and wellness in Singapore</h2>
+    <p class="eyebrow" style="text-align:center" data-i18n="journal_eyebrow">The Journal</p>
+    <h2 style="text-align:center" data-i18n="journal_h2">Guides on yoga, dance and wellness in Singapore</h2>
+    <p class="zh-note-banner" style="max-width:600px;margin:14px auto 0;text-align:center" data-i18n="journal_zh_note">These journal guides are currently available in English only.</p>
     <div class="journal-grid" style="margin-top:30px">
       <div class="journal-card"><span class="tag">Guide</span><h3><a href="articles/bilingual-yoga-studio-singapore-beginners.html">Bilingual Yoga Studio in Singapore: A Beginner's Guide</a></h3><p>What to expect from an English/Mandarin yoga class as a first-timer.</p><a class="readmore" href="articles/bilingual-yoga-studio-singapore-beginners.html">Read more →</a></div>
       <div class="journal-card"><span class="tag">Community</span><h3><a href="articles/how-to-start-yoga-practice-with-a-friend.html">How to Start a Yoga Practice With a Friend</a></h3><p>Why practicing alongside someone else helps a habit stick.</p><a class="readmore" href="articles/how-to-start-yoga-practice-with-a-friend.html">Read more →</a></div>
@@ -353,33 +392,33 @@
 
 <section id="faq">
   <div class="container">
-    <p class="eyebrow" style="text-align:center">Frequently Asked</p>
-    <h2 style="text-align:center">Common questions, answered directly</h2>
+    <p class="eyebrow" style="text-align:center" data-i18n="faq_eyebrow">Frequently Asked</p>
+    <h2 style="text-align:center" data-i18n="faq_h2">Common questions, answered directly</h2>
     <div style="max-width:760px;margin:30px auto 0">
-      <div class="faq-item"><h3>Is Desert Roses Yoga Dance a bilingual studio?</h3><p>Yes. Desert Roses has taught classes in both English and Mandarin since 2009, making it one of Singapore's few genuinely bilingual yoga and dance studios.</p></div>
-      <div class="faq-item"><h3>How much does it cost to try a class?</h3><p>Your first class is free. After that, a Yoga package is 99 SGD for 10 classes valid 3 months, and a Yoga &amp; Dance Combo package is 98 SGD for 8 classes valid 2 months.</p></div>
-      <div class="faq-item"><h3>Where are the studios located?</h3><p>22B Upper Cross Street, Singapore 058334 (Chinatown), and 706A Geylang Road, Singapore 389621 (Paya Lebar).</p></div>
-      <div class="faq-item"><h3>What classes are offered?</h3><p>Mandarin Yoga, Bellydance Fitness &amp; Choreography, Adult Ballet, Chinese Dance, Jazz Dance, Yogalates, and corporate wellness workshops.</p></div>
-      <div class="faq-item"><h3>Can I bring a friend?</h3><p>Yes — Desert Roses runs referral perks for members who bring people along, and encourages practicing together.</p></div>
-      <div class="faq-item"><h3>How do I book a free trial?</h3><p>Click "Book Free Trial" anywhere on this page to open the live booking calendar without leaving this site, or message on WhatsApp (+65 9665 2368), WeChat (desertrosesfit), or Facebook (desertrosesbellydance).</p></div>
+      <div class="faq-item"><h3 data-i18n="faq_q1">Is Desert Roses Yoga Dance a bilingual studio?</h3><p data-i18n="faq_a1">Yes. Desert Roses has taught classes in both English and Mandarin since 2009, making it one of Singapore's few genuinely bilingual yoga and dance studios.</p></div>
+      <div class="faq-item"><h3 data-i18n="faq_q2">How much does it cost to try a class?</h3><p data-i18n="faq_a2">Your first class is free. After that, a Yoga package is 99 SGD for 10 classes valid 3 months, and a Yoga &amp; Dance Combo package is 98 SGD for 8 classes valid 2 months.</p></div>
+      <div class="faq-item"><h3 data-i18n="faq_q3">Where are the studios located?</h3><p data-i18n="faq_a3">22B Upper Cross Street, Singapore 058334 (Chinatown), and 706A Geylang Road, Singapore 389621 (Paya Lebar).</p></div>
+      <div class="faq-item"><h3 data-i18n="faq_q4">What classes are offered?</h3><p data-i18n="faq_a4">Mandarin Yoga, Bellydance Fitness &amp; Choreography, Adult Ballet, Chinese Dance, Jazz Dance, Yogalates, and corporate wellness workshops.</p></div>
+      <div class="faq-item"><h3 data-i18n="faq_q5">Can I bring a friend?</h3><p data-i18n="faq_a5">Yes — Desert Roses runs referral perks for members who bring people along, and encourages practicing together.</p></div>
+      <div class="faq-item"><h3 data-i18n="faq_q6">How do I book a free trial?</h3><p data-i18n-html="faq_a6">Click "Book Free Trial" anywhere on this page to open the live booking calendar without leaving this site, or message on WhatsApp (+65 9665 2368), WeChat (desertrosesfit), or Facebook (desertrosesbellydance).</p></div>
     </div>
   </div>
 </section>
 
 <section id="locations" class="alt">
   <div class="container">
-    <p class="eyebrow" style="text-align:center">Locations</p>
-    <h2 style="text-align:center">Two studios, MRT-accessible</h2>
+    <p class="eyebrow" style="text-align:center" data-i18n="loc_eyebrow">Locations</p>
+    <h2 style="text-align:center" data-i18n="loc_h2">Two studios, MRT-accessible</h2>
     <div class="locations-grid" style="margin-top:30px">
       <div class="card">
-        <img src="assets/organic-studio.jpg" alt="Desert Roses partner practice inside the studio" width="720" height="960" loading="lazy" style="border-radius:12px;margin-bottom:16px">
-        <h3>Chinatown</h3>
-        <p>22B Upper Cross Street, Singapore 058334</p>
+        <img class="ph-photo" src="assets/organic-studio.jpg" alt="Desert Roses partner practice inside the studio" width="720" height="960" loading="lazy" style="margin-bottom:16px">
+        <h3 data-i18n="loc_1_name">Chinatown</h3>
+        <p data-i18n="loc_1_addr">22B Upper Cross Street, Singapore 058334</p>
       </div>
       <div class="card">
-        <img src="assets/organic-outdoor.jpg" alt="Desert Roses students practicing outdoors near Paya Lebar" width="1280" height="720" loading="lazy" style="border-radius:12px;margin-bottom:16px">
-        <h3>Paya Lebar</h3>
-        <p>706A Geylang Road, Singapore 389621</p>
+        <img class="ph-photo" src="assets/organic-outdoor.jpg" alt="Desert Roses students practicing outdoors near Paya Lebar" width="1280" height="720" loading="lazy" style="margin-bottom:16px">
+        <h3 data-i18n="loc_2_name">Paya Lebar</h3>
+        <p data-i18n="loc_2_addr">706A Geylang Road, Singapore 389621</p>
       </div>
     </div>
   </div>
@@ -387,16 +426,32 @@
 
 <section id="contact">
   <div class="container" style="text-align:center">
-    <p class="eyebrow">Get In Touch</p>
-    <h2>Your first class is free. Let's find your people.</h2>
+    <p class="eyebrow" data-i18n="contact_eyebrow">Get In Touch</p>
+    <h2 data-i18n="contact_h2">Your first class is free. Let's find your people.</h2>
     <div class="grid-3" style="margin-top:30px;max-width:700px;margin-left:auto;margin-right:auto">
-      <div class="card"><img class="icon" src="assets/icon-whatsapp.png" alt="WhatsApp icon" width="56" height="56" loading="lazy" style="margin:0 auto 14px"><h3>WhatsApp</h3><p>+65 9665 2368</p></div>
-      <div class="card"><img class="icon" src="assets/icon-wechat.png" alt="WeChat icon" width="56" height="56" loading="lazy" style="margin:0 auto 14px"><h3>WeChat</h3><p>desertrosesfit</p></div>
-      <div class="card"><img class="icon" src="assets/icon-facebook.png" alt="Facebook icon" width="56" height="56" loading="lazy" style="margin:0 auto 14px"><h3>Facebook</h3><p>desertrosesbellydance</p></div>
+      <a class="card contact-card" href="https://wa.me/6596652368" target="_blank" rel="noopener">
+        <img class="icon" src="assets/icon-whatsapp.png" alt="WhatsApp icon" width="56" height="56" loading="lazy" style="margin:0 auto 14px">
+        <h3 data-i18n="contact_whatsapp_name">WhatsApp</h3>
+        <p>+65 9665 2368</p>
+        <p class="cta-hint" data-i18n="contact_whatsapp_hint">Chat with us →</p>
+      </a>
+      <button type="button" class="card contact-card" id="wechat-copy-card" style="width:100%;border:1px solid var(--line);font-family:inherit">
+        <img class="icon" src="assets/icon-wechat.png" alt="WeChat icon" width="56" height="56" loading="lazy" style="margin:0 auto 14px">
+        <h3 data-i18n="contact_wechat_name">WeChat</h3>
+        <p>desertrosesfit</p>
+        <p class="cta-hint" data-i18n="contact_wechat_hint">Tap to copy ID →</p>
+        <span class="copy-toast" id="wechat-copy-toast" data-i18n="contact_wechat_copied">Copied! Search desertrosesfit in WeChat</span>
+      </button>
+      <a class="card contact-card" href="https://www.facebook.com/desertrosesbellydance" target="_blank" rel="noopener">
+        <img class="icon" src="assets/icon-facebook.png" alt="Facebook icon" width="56" height="56" loading="lazy" style="margin:0 auto 14px">
+        <h3 data-i18n="contact_facebook_name">Facebook</h3>
+        <p>desertrosesbellydance</p>
+        <p class="cta-hint" data-i18n="contact_facebook_hint">Visit our page →</p>
+      </a>
     </div>
     <div class="cta-row" style="justify-content:center;margin-top:34px">
-      <a href="https://www.dryogadance.com/book" class="pill-btn" data-open-booking="https://www.dryogadance.com/book" data-booking-label="Book Your Free Trial Class">Book Online Now</a>
-      <a href="https://wa.me/6596652368" class="pill-btn outline">Message Us on WhatsApp</a>
+      <a href="https://www.dryogadance.com/book" class="pill-btn" data-open-booking="https://www.dryogadance.com/book" data-i18n="contact_cta_book">Book Online Now</a>
+      <a href="https://wa.me/6596652368" class="pill-btn outline" target="_blank" rel="noopener" data-i18n="contact_cta_whatsapp">Message Us on WhatsApp</a>
     </div>
   </div>
 </section>
@@ -406,12 +461,12 @@
     <div>
       <strong>Desert Roses Yoga Dance</strong><br>
       沙漠玫瑰瑜伽舞蹈 · Est. 2009 · Singapore<br>
-      "Become the light you already are"
+      <span data-i18n="footer_tagline">"Become the light you already are"</span>
     </div>
     <div>
-      Chinatown: 22B Upper Cross Street, S058334<br>
-      Paya Lebar: 706A Geylang Road, S389621<br>
-      WhatsApp +65 9665 2368
+      <span data-i18n="footer_chinatown">Chinatown:</span> 22B Upper Cross Street, S058334<br>
+      <span data-i18n="footer_payalebar">Paya Lebar:</span> 706A Geylang Road, S389621<br>
+      <span data-i18n="footer_whatsapp">WhatsApp</span> +65 9665 2368
     </div>
   </div>
   <div class="container" style="margin-top:20px;padding-top:16px;border-top:1px solid rgba(233,222,240,.25);font-size:.78rem;opacity:.75">
@@ -419,6 +474,26 @@
   </div>
 </footer>
 
+<script src="assets/i18n.js"></script>
 <script src="assets/booking-modal.js"></script>
+<script>
+(function () {
+  var card = document.getElementById("wechat-copy-card");
+  var toast = document.getElementById("wechat-copy-toast");
+  if (!card || !toast) return;
+  card.addEventListener("click", function () {
+    var text = "desertrosesfit";
+    var done = function () {
+      toast.classList.add("show");
+      setTimeout(function () { toast.classList.remove("show"); }, 2200);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, done);
+    } else {
+      done();
+    }
+  });
+})();
+</script>
 </body>
 </html>

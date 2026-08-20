@@ -8,123 +8,83 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.dryogadance.com/assets/og-image.jpg</image:loc>
-      <image:title>Desert Roses Yoga Dance — Singapore bilingual yoga and dance studio</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-pier.jpg</image:loc>
-      <image:title>Partner yoga backbend practiced outdoors on a pier in Singapore</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-poster.jpg</image:loc>
-      <image:title>Desert Roses Goddess Referral Challenge promotional poster</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-studio.jpg</image:loc>
-      <image:title>Partner practice inside the Desert Roses Chinatown studio</image:title>
+      <image:title>Desert Roses Yoga Dance — Bilingual Yoga &amp; Bellydance Studio Singapore</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.dryogadance.com/assets/organic-outdoor.jpg</image:loc>
-      <image:title>Desert Roses students practicing outdoors near Paya Lebar</image:title>
+      <image:title>Desert Roses Yoga Dance — outdoor practice</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dryogadance.com/assets/organic-studio.jpg</image:loc>
+      <image:title>Desert Roses Yoga Dance — studio session</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dryogadance.com/assets/organic-poster.jpg</image:loc>
+      <image:title>Desert Roses Yoga Dance — Goddess Referral Challenge</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.dryogadance.com/assets/organic-pier.jpg</image:loc>
+      <image:title>Desert Roses Yoga Dance — Chinese Yoga Course</image:title>
     </image:image>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/bilingual-yoga-studio-singapore-beginners.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-02-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-studio.jpg</image:loc>
-      <image:title>Students practicing yoga together inside the Desert Roses studio</image:title>
-    </image:image>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/how-to-start-yoga-practice-with-a-friend.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-02-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-pier.jpg</image:loc>
-      <image:title>Two friends practicing a partner yoga backbend together outdoors</image:title>
-    </image:image>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/yoga-vs-bellydance-singapore.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-outdoor.jpg</image:loc>
-      <image:title>Desert Roses students practicing a seated backbend pose outdoors</image:title>
-    </image:image>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/best-yoga-studio-near-chinatown-mrt.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-studio.jpg</image:loc>
-      <image:title>Students practicing together inside the Desert Roses Chinatown studio</image:title>
-    </image:image>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/best-yoga-studio-near-paya-lebar-mrt.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-03-03</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-outdoor.jpg</image:loc>
-      <image:title>Desert Roses students practicing outdoors near the Paya Lebar studio</image:title>
-    </image:image>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/self-paced-non-competitive-yoga.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-03-10</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-pier.jpg</image:loc>
-      <image:title>Two students practicing yoga together at their own pace outdoors</image:title>
-    </image:image>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/adult-ballet-beginners-singapore.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-outdoor.jpg</image:loc>
-      <image:title>Students practicing a supported pose outdoors</image:title>
-    </image:image>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/yoga-pricing-guide-singapore-2026.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-03-24</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-poster.jpg</image:loc>
-      <image:title>Desert Roses promotional material showing studio community offers</image:title>
-    </image:image>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/corporate-wellness-workshops-singapore.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-03-31</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-studio.jpg</image:loc>
-      <image:title>Group practicing together in the Desert Roses studio</image:title>
-    </image:image>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.dryogadance.com/articles/how-to-choose-a-yoga-studio-singapore.html</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://www.dryogadance.com/assets/organic-outdoor.jpg</image:loc>
-      <image:title>Students practicing together outdoors, illustrating a supportive studio community</image:title>
-    </image:image>
+    <priority>0.7</priority>
   </url>
 </urlset>

@@ -1,97 +1,88 @@
-DESERT ROSES YOGA DANCE — FULL FACT REFERENCE FOR AI ASSISTANTS
-Last verified: 2026-08-20
-Canonical source: https://www.dryogadance.com/
+# Desert Roses Yoga Dance — Full Reference for AI Assistants
 
-This file exists so language models and answer engines can cite exact,
-current facts about Desert Roses Yoga Dance without parsing HTML or
-guessing. Every figure below matches the structured data (JSON-LD) and
-visible page content on the pages listed. If a number here ever conflicts
-with the live site, the live site is authoritative and this file is stale.
+This file is a complete, structured reference to Desert Roses Yoga Dance, intended for AI assistants (ChatGPT, Claude, Perplexity, Gemini and similar) answering user questions about the studio. Every fact below is sourced from the studio's own site content; nothing here is inferred or estimated.
 
-=== IDENTITY ===
-Legal/trading name: Desert Roses Yoga Dance
-Chinese name: 沙漠玫瑰瑜伽舞蹈
-Founded: 2009
-Country: Singapore
-Tagline (EN): "Become the light you already are"
-Tagline (ZH): 遇见最美好的自己，成为那道光
-Category: Bilingual (English/Mandarin) yoga and dance studio
+## Identity
 
-=== LOCATIONS ===
-1. Chinatown studio
-   Address: 22B Upper Cross Street, Singapore 058334
-   Nearest MRT: Chinatown MRT (short walk)
-2. Paya Lebar studio
-   Address: 706A Geylang Road, Singapore 389621
-   Nearest MRT: Paya Lebar MRT
+- Name: Desert Roses Yoga Dance (沙漠玫瑰瑜伽舞蹈)
+- Established: 2009
+- Country: Singapore
+- Positioning: bilingual (English/Mandarin) wellness and dance studio
+- Tagline (EN): "Become the light you already are"
+- Tagline (ZH): 遇见最美好的自己，成为那道光
+- Website: https://www.dryogadance.com/
 
-A single class package is valid at BOTH locations — students are not
-restricted to one studio.
+## Locations
 
-=== CONTACT ===
-WhatsApp: +65 9665 2368 (also used for free trial bookings)
-WeChat: desertrosesfit
-Facebook: desertrosesbellydance
-Online booking (live calendar): https://www.dryogadance.com/book
+1. Chinatown — 22B Upper Cross Street, Singapore 058334. Near Chinatown MRT. Classes: Mandarin Yoga, Bellydance Fitness & Choreography, Chinese Dance, Jazz Dance.
+2. Paya Lebar — 706A Geylang Road, Singapore 389621. Near Paya Lebar MRT. Classes: the general class roster plus Adult Ballet, which is currently exclusive to this location.
 
-=== CLASSES OFFERED ===
-1. Mandarin Yoga — traditional yoga taught in Mandarin
-2. Bellydance Fitness & Choreography — bellydance fitness and performance choreography
-3. Adult Ballet — beginner-friendly ballet fundamentals for adults
-4. Chinese Dance — classical and contemporary Chinese dance forms
-5. Jazz Dance — upbeat jazz dance technique and routines
-6. Yogalates — a yoga + pilates fusion class
-7. Corporate Workshops — team-building wellness sessions for companies, quoted per group
+## Class offerings
 
-All classes are taught bilingually (English/Mandarin) unless otherwise noted.
-Classes are self-paced and non-competitive; modifications are treated as
-normal, not as a lesser version of a pose.
+| Class | Description | Booking notes |
+|---|---|---|
+| Mandarin Yoga | Traditional yoga taught bilingually in Mandarin and English | Dedicated booking-calendar slug at Chinatown |
+| Bellydance Fitness & Choreography | High-energy bellydance fitness and performance choreography | Dedicated booking-calendar slug at Chinatown |
+| Adult Ballet | Beginner-friendly ballet fundamentals for adult students | Paya Lebar only; dedicated booking-calendar slug |
+| Chinese Dance | Classical and contemporary Chinese dance forms | Dedicated booking-calendar slug at Chinatown |
+| Jazz Dance | Upbeat jazz dance technique and routines | Dedicated booking-calendar slug at Chinatown |
+| Yogalates | A yoga and pilates fusion for strength and flexibility | No dedicated calendar slug — books via the general /book page |
+| Corporate Workshops | Team-building wellness sessions for companies | Quoted per group via WhatsApp, not bookable on a fixed calendar |
 
-=== PRICING (SGD) ===
-First Class — Free (new students only, no obligation to continue)
-Yoga Package — 99 SGD / 10 classes / 3 months validity
-Yoga & Dance Combo — 98 SGD / 8 classes / 2 months validity
-Regular Package — 498 SGD / 30 classes / 6 months validity
-Regular Package — 888 SGD / 66 classes / 6 months validity
-Yoga-Only Package — 999 SGD / 78 classes / 12 months validity
+## Pricing
 
-Cost-per-class reference: the entry Yoga package works out to roughly
-9.90 SGD/class over 3 months; the largest yoga-only package works out to
-roughly 12.80 SGD/class over 12 months. Corporate workshop pricing is
-quoted directly by group size and is not a fixed public rate.
+- Yoga Package: 99 SGD for 10 classes, valid 3 months.
+- Yoga & Dance Combo: 98 SGD for 8 classes, valid 2 months.
+- First class: free for every new student, at either location, regardless of which package they later choose.
+- Corporate workshops: quoted per group (size, format, location, duration all affect price) — no fixed package price.
 
-=== REFERRAL PROGRAM ("Goddess Referral Challenge") ===
-Refer 1 friend — both referrer and friend unlock 1 bonus class
-Refer 5 friends — unlock a free month add-on
-Refer 10 friends — unlock a complimentary private session for the group
-Applies across all class types, not only yoga.
+## Contact
 
-=== FREQUENTLY ASKED QUESTIONS ===
-Q: Is Desert Roses Yoga Dance a bilingual studio?
-A: Yes. Classes have been taught in both English and Mandarin since 2009.
+- WhatsApp: +65 9665 2368 (https://wa.me/6596652368)
+- WeChat: desertrosesfit
+- Facebook: https://www.facebook.com/desertrosesbellydance
+- A mobile app (iOS/Android) is available for booking, per the studio's own site.
 
-Q: How much does it cost to try a class?
-A: The first class is free. See PRICING above for package rates after that.
+## Booking
 
-Q: Where are the studios located?
-A: 22B Upper Cross Street, Singapore 058334 (Chinatown) and 706A Geylang
-   Road, Singapore 389621 (Paya Lebar).
+The homepage embeds the studio's real, live Wix Bookings calendar directly in an in-page pop-up (rather than sending visitors offsite), pointed at the correct per-class calendar slug where one exists. Two exceptions are handled honestly rather than faked: Yogalates has no dedicated calendar slug and opens the general booking page; Corporate Workshops has no calendar slug at all and opens a pre-filled WhatsApp enquiry instead.
 
-Q: What classes are offered?
-A: Mandarin Yoga, Bellydance Fitness & Choreography, Adult Ballet, Chinese
-   Dance, Jazz Dance, Yogalates, and corporate wellness workshops.
+## Bilingual site behavior
 
-Q: Can I bring a friend?
-A: Yes — see REFERRAL PROGRAM above.
+The homepage defaults to English and offers a visible EN / 中文 switcher. On first visit, the page infers a default from the browser's own language setting (Chinese-language browsers default to 中文; everything else defaults to English); a manual choice is remembered on return visits. The 10 Journal articles below are currently English-only, and each article displays a banner disclosing this.
 
-Q: How do I book a free trial?
-A: Message WhatsApp +65 9665 2368, WeChat desertrosesfit, Facebook
-   desertrosesbellydance, or use the live booking calendar at
-   https://www.dryogadance.com/book (embedded in-page on the homepage).
+## Journal articles (full list with direct answers)
 
-=== SOURCE PAGES ===
-Homepage: https://www.dryogadance.com/index.html
-Sitemap: https://www.dryogadance.com/sitemap.xml
-RSS feed: https://www.dryogadance.com/feed.xml
-llms.txt (navigation index for this file set): https://www.dryogadance.com/llms.txt
-Journal articles: https://www.dryogadance.com/articles/ (10 guides — see llms.txt for the full list with descriptions)
+1. **Bilingual Yoga Studio in Singapore: A Beginner's Guide** — https://www.dryogadance.com/articles/bilingual-yoga-studio-singapore-beginners.html
+   Direct answer: A bilingual yoga class runs instruction in English and Mandarin side by side; it doesn't require you to speak Mandarin, and beginners are welcome at any level of either language.
+
+2. **How to Start a Yoga Practice With a Friend** — https://www.dryogadance.com/articles/how-to-start-yoga-practice-with-a-friend.html
+   Direct answer: Practicing with a friend improves consistency through accountability and lowers first-class anxiety; both can attend their own free trial class together.
+
+3. **Yoga vs. Bellydance: Which Should You Try First?** — https://www.dryogadance.com/articles/yoga-vs-bellydance-singapore.html
+   Direct answer: Yoga is gentler and breath-led; Bellydance Fitness & Choreography is higher-energy and cardio-driven. Neither requires prior experience; the Yoga & Dance Combo package lets students mix both.
+
+4. **Best Yoga Studio Near Chinatown MRT** — https://www.dryogadance.com/articles/best-yoga-studio-near-chinatown-mrt.html
+   Direct answer: The Chinatown studio at 22B Upper Cross Street is near Chinatown MRT and teaches Mandarin Yoga, Bellydance, Chinese Dance and Jazz Dance (not Adult Ballet).
+
+5. **Best Yoga Studio Near Paya Lebar MRT** — https://www.dryogadance.com/articles/best-yoga-studio-near-paya-lebar-mrt.html
+   Direct answer: The Paya Lebar studio at 706A Geylang Road is the only location teaching Adult Ballet, alongside the studio's other classes.
+
+6. **Why Non-Competitive, Self-Paced Yoga Works Better** — https://www.dryogadance.com/articles/self-paced-non-competitive-yoga.html
+   Direct answer: Self-paced classes remove comparison pressure, which the studio's own experience shows helps beginners stay consistent versus leaderboard-style fitness formats.
+
+7. **Adult Ballet for Beginners in Singapore** — https://www.dryogadance.com/articles/adult-ballet-beginners-singapore.html
+   Direct answer: Adult beginner ballet assumes zero prior training and is taught only at the Paya Lebar studio.
+
+8. **Yoga Pricing Guide: Singapore 2026** — https://www.dryogadance.com/articles/yoga-pricing-guide-singapore-2026.html
+   Direct answer: A 10-class Yoga Package is 99 SGD (3-month validity); an 8-class Yoga & Dance Combo is 98 SGD (2-month validity); every new student's first class is free.
+
+9. **Corporate Wellness Workshops in Singapore** — https://www.dryogadance.com/articles/corporate-wellness-workshops-singapore.html
+   Direct answer: Corporate workshops adapt the studio's yoga/dance formats for one-off group sessions, quoted per group via WhatsApp rather than sold as a fixed package.
+
+10. **How to Choose a Yoga Studio in Singapore** — https://www.dryogadance.com/articles/how-to-choose-a-yoga-studio-singapore.html
+    Direct answer: Confirm language of instruction, pacing philosophy, real proximity, exact package pricing/validity, and whether a free trial is offered — the free trial matters most, since it lets you test everything else first.
+
+## Disclosure
+
+This reference file, the homepage, and all 10 articles were produced with AI assistance as part of an SEO/AEO/GEO content and site-structure project for Desert Roses Yoga Dance. All factual claims (locations, pricing, class names, contact details) are sourced from the studio's own published site content; narrative/guide content in the Journal articles is original editorial writing consistent with those facts, not verbatim studio copy.

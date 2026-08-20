@@ -1,10 +1,11 @@
 /*
   Desert Roses Yoga Dance — embedded trial-booking modal.
   Opens the real, live Wix Bookings calendar (the same system that already
-  powers dryogadance.com/book) inside an in-page overlay, so a visitor never
-  leaves this site to book a class. Every [data-open-booking] trigger on the
-  page (nav pill, hero CTA, contact CTA, etc.) opens the same modal instead
-  of navigating away.
+  powers dryogadance.com/book, including per-class booking-calendar pages)
+  inside an in-page overlay, so a visitor never leaves this site to book a
+  class. Every [data-open-booking] trigger on the page (nav pill, hero CTA,
+  a specific class card, contact CTA, etc.) opens this same modal pointed at
+  whatever URL that trigger declares, instead of navigating away.
 
   Why an iframe rather than re-building the calendar: the live booking
   calendar is a Wix Bookings application — real-time class availability,
@@ -24,7 +25,17 @@
   var DEFAULT_BOOKING_URL = "https://www.dryogadance.com/book";
   var SPINNER_MIN_MS = 600; // avoid a spinner flash on instant loads
 
-  var overlay, modal, iframe, loading, fallbackLink, titleEl, closeBtn;
+  var STRINGS = {
+    en: { title: "Book Your Free Trial Class", loading: "Loading the live class calendar…", prefer: "Prefer a full page?", open: "Open booking in a new tab →" },
+    zh: { title: "预约免费试课", loading: "正在加载实时课程日历…", prefer: "更喜欢完整页面？", open: "在新标签页中打开预约 →" }
+  };
+
+  function currentLang() {
+    var l = document.documentElement.getAttribute("lang");
+    return l === "zh" ? "zh" : "en";
+  }
+
+  var overlay, modal, iframe, loading, loadingText, fallbackLink, fallbackPrefer, titleEl, closeBtn;
   var lastFocused = null;
 
   function buildModal() {
@@ -37,18 +48,18 @@
     overlay.innerHTML =
       '<div class="booking-modal">' +
         '<div class="booking-modal-header">' +
-          '<h2>Book Your Free Trial Class</h2>' +
+          '<h2></h2>' +
           '<button type="button" class="booking-modal-close" aria-label="Close booking window">&times;</button>' +
         '</div>' +
         '<div class="booking-modal-body">' +
           '<div class="booking-modal-loading">' +
             '<div class="booking-modal-spinner"></div>' +
-            '<span>Loading the live class calendar…</span>' +
+            '<span class="booking-modal-loading-text"></span>' +
           '</div>' +
         '</div>' +
         '<div class="booking-modal-fallback">' +
-          '<span>Prefer a full page?</span>' +
-          '<a href="' + DEFAULT_BOOKING_URL + '" target="_blank" rel="noopener">Open booking in a new tab &rarr;</a>' +
+          '<span class="booking-modal-prefer"></span>' +
+          '<a href="' + DEFAULT_BOOKING_URL + '" target="_blank" rel="noopener"></a>' +
         '</div>' +
       '</div>';
 
@@ -56,6 +67,8 @@
 
     modal = overlay.querySelector(".booking-modal");
     loading = overlay.querySelector(".booking-modal-loading");
+    loadingText = overlay.querySelector(".booking-modal-loading-text");
+    fallbackPrefer = overlay.querySelector(".booking-modal-prefer");
     fallbackLink = overlay.querySelector(".booking-modal-fallback a");
     titleEl = overlay.querySelector(".booking-modal-header h2");
     closeBtn = overlay.querySelector(".booking-modal-close");
@@ -72,9 +85,13 @@
   function openModal(url, label) {
     if (!overlay) buildModal();
     var bookingUrl = url || DEFAULT_BOOKING_URL;
+    var s = STRINGS[currentLang()];
 
     lastFocused = document.activeElement;
-    titleEl.textContent = label || "Book Your Free Trial Class";
+    titleEl.textContent = label || s.title;
+    loadingText.textContent = s.loading;
+    fallbackPrefer.textContent = s.prefer;
+    fallbackLink.textContent = s.open;
     loading.style.display = "flex";
     fallbackLink.href = bookingUrl;
 
@@ -128,4 +145,15 @@
   } else {
     init();
   }
+
+  // Expose for the i18n switcher: re-localize header text live if the modal
+  // happens to be open at the moment the user flips the language.
+  window.__drBookingModalRelocalize = function () {
+    if (!overlay || !overlay.classList.contains("open")) return;
+    var s = STRINGS[currentLang()];
+    if (!titleEl.dataset.customLabel) titleEl.textContent = s.title;
+    loadingText.textContent = s.loading;
+    fallbackPrefer.textContent = s.prefer;
+    fallbackLink.textContent = s.open;
+  };
 })();
